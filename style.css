@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  width: 500px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+body {
+  background-color: whitesmoke;
+}
+.questions {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: white;
+  height: 450px;
+  border-radius: 30px;
+  gap: 30px;
+  flex-direction: column;
+  display: flex;
+  width: 60%;
+  overflow-y: auto;
+}
+
+input[type="number"] {
+  width: 70px;
+}
+input[type="text"] {
+  padding: 1px;
+  width: 90px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+input[type="text"].long-text {
+  width: 220px;
+}
+input[type="text"].mult {
+  width: 180px;
+}
+select {
+  margin-top: 2px;
+  margin-left: 5px;
+  width: 55px;
+  text-align: center;
+  padding: 2px;
+}
+.bold {
+  font-weight: bolder;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+button {
+  font-size: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+#restart {
+  display: none;
+}
+.mauvais {
+  color: red;
+}
+.moyen {
+  color: orange;
+}
+.bon {
+  color: green;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.reponse {
+  color: rgb(253, 151, 35);
+}
+li {
+  list-style: none;
+}

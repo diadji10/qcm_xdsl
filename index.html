@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Lien font cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Lien google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DCM xDSL</title>
+  </head>
+  <body>
+    <header></header>
+    <div class="questions">
+      <h1 style="text-align: center">QCM xDSL</h1>
+      <p style="font-style: italic; font-size: 15px; font-weight: 300">
+        Pour des soucis de performances, veuillez éviter tout accent et
+        quelconque signe de ponctuation dans vos réponses
+      </p>
+      <div class="ques">
+        <p id="q1">
+          <p class="bold">1. </p> Une technologie xDSL permetune rapidité
+          de modulation de 6250 bauds et le codage de symbole issu de cette
+          technologie se fait sur 4 bits.<br />Calculer le nombre de
+          combinaisons de quatre bits (Valence) que l'on peut réaliser en
+          utilisant les bits "0" et "1". <br />
+          Valence : <input type="number" min="0" id="num" /> <br />
+          Calculer le débit et en déduire le nom de la technologie sur une
+          liaison entièrement en cuivre <br />
+          Débit : <input type="number" min="0" id="num" /> bit/s<br />
+          Technologie : <input type="text" id="text" />
+        </p>
+      </div>
+      <div class="ques">
+        <p id="q2">
+          <p class="bold">2. </p> Citer les technologies et les services
+          associés aux technologies xDSL au profit des professionnels ou des
+          entreprises
+        </p>
+        <br />
+        <input type="text" id="m0" class="mult" /><br />
+        <input type="text" id="m0" class="mult" /><br />
+        <input type="text" id="m0" class="mult" /><br />
+        <input type="text" id="m0" class="mult" /><br />
+        <input type="text" id="m0" class="mult" /><br />
+        <input type="text" id="m0" class="mult" /><br>
+        <ul id="ul-m0"></ul>
+      </div>
+      <div class="ques">
+        <p id="q3">
+          <p class="bold">3. </p> Je suis abonné à une technologie
+          xDSL<input type="text" id="text" /> pour extraire la voix du signal
+          multiplexé recu chez moi, J'ai besoin d'un
+          <input type="text" id="text" />. La partie du signal multiplexé
+          permettant d'avoir internet passe par le
+          <input type="text" id="text" /> et avant d'accéder à la télévision, le
+          signal transite par le <input type="text" id="text" />.
+        </p>
+      </div>
+      <div class="ques">
+        <p id="q4">
+          <p class="bold">4. </p> Vous etes responsable d'une agence
+          commerciale d'un grand groupe et vous avez la visite d'un client qui
+          veut s'abonner à l'ADSL2 avec en option CVoDSL pour bénéficier d'un
+          accès POTS et de quatre signaux voix en TDM à 64Kbits/s. Faites la
+          liste du matériel à déployer chez le client sachant que la ligne est
+          déjà qualifiée pour l'ADSL2
+        </p>
+        <input type="text" id="m1" class="mult" /><br />
+        <input type="text" id="m1" class="mult" /><br />
+        <input type="text" id="m1" class="mult" /><br />
+        <input type="text" id="m1" class="mult" /><br />
+        <input type="text" id="m1" class="mult" /><br />
+        <input type="text" id="m1" class="mult" /><br>
+        <ul id="ul-m1"></ul>
+
+      </div>
+      <div class="ques">
+        <p id="5">
+          <p class="bold">5. </p> Quel type de codage utilise t-on pour
+          augmenterle débit des technologies QAM
+        </p>
+        <br />
+        <input type="text" id="text" />
+      </div>
+      <div class="ques">
+        <p id="q6">
+          <p class="bold">6. </p> Quelle est la conséquence de
+          l'utilisation du codage basé sur l'amplitude du signal(Pulse Amplitude
+          Modulation)pour augmenter le débit des technologies xDSL
+        </p>
+        <br />
+        <input type="text" id="text" class="long-text" />
+      </div>
+      <div class="ques">
+        <p id="q7">
+          <p class="bold">7. </p> Citer 3 avantages de l'ADSL2
+        </p>
+        <br />
+        <input type="text" id="m2" class="mult" /><br />
+        <input type="text" id="m2" class="mult" /><br />
+        <input type="text" id="m2" class="mult" /><br />
+        <ul id="ul-m2"></ul>
+
+      </div>
+      <div class="ques">
+        <p id="q8">
+          <p class="bold">8. </p> Donner les caractéristiques essentielles
+          d'une liaison spécialisée
+        </p>
+        <input type="text" id="m3" class="mult" /><br />
+        <input type="text" id="m3" class="mult" /><br />
+        <input type="text" id="m3" class="mult" /><br />
+        <ul id="ul-m3"></ul>
+
+      </div>
+      <div class="ques">
+        <p id="9">
+          <p class="bold">9. </p> Préciser la valeur de l'aténuation
+          maximalepour une ligne ADSL
+        </p>
+        <input type="text" id="text" />
+      </div>
+      <div class="ques">
+        <p id="10">
+          <p class="bold">10. </p> Sur une liaison spécialisée point à
+          point avec une structure intra-zone locale, les terminaux communiquent
+          à travers : <br />
+          -Un commutateurlocal ou commutateur urbain(Vrai ou Faux) :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Un dispositif d'essai manuel (Vrai ou Faux) :
+          <select>
+            <option value="">-</option>
+
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Une basile télécommandable (Vrai ou Faux) :<select>
+            <option value="">-</option>
+
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Deux modems(Vrai ou Faux) :<select>
+            <option value="">-</option>
+
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Deux modems synchronisés (Vrai ou Faux) :<select>
+            <option value="">-</option>
+
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+      <div class="ques">
+        <p id="11">
+          <p class="bold">11. </p> Est-il possible de bénéficier de la
+          technologie CPL si mes prises électriques sont situées à 2 km du
+          transformateur basse tension du distributeur d'énergie (Vrai ou
+          Faux):<select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+      <div class="ques">
+        <p id="12">
+          <p class="bold">12. </p> Le CPL peut permettre la connexion à
+          Internet, à téléphoner et à regarder la télévision (Vrai ou Faux):
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+      <div class="ques">
+        <p id="13">
+          <p class="bold">13. </p> Plus le diamètre(section ou calibre) du
+          conducteur du cable est important, plus l'affaiblissement de ce
+          conducteur est faible (Vrai ou Faux) :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+      <div class="ques">
+        <p id="14">
+          <p class="bold">14. </p> Plus le diamètre(section ou calibre) du
+          conducteur du cable est faible, plus l'affaiblissement de ce
+          conducteur est élevé (Vrai ou Faux) :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+      <div class="ques">
+        <p id="15">
+          <p class="bold">15. </p> Donner la valeur de la résistance
+          d'isolement d'une liaison spécialisée
+        </p>
+        -Résistance d'isolement: <input type="text" id="text" /> Ω
+      </div>
+      <div class="ques">
+        <p id="16">
+          <p class="bold">16. </p> Une société de la place souscrit à une
+          liaison spécialisée pour sa connexion internet alors qu'elle a la
+          possibilité de demander une ligne ADSL. Donner les raisons de ce choix
+          :<br />
+          -Sécurité :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Garantie de débit :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Tarif moins cher :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Tarification Forfétaire :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Débit important :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option></select
+          ><br />
+          -Débit illimité:<select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+      <div class="ques">
+        <p id="17">
+          <p class="bold">17. </p> Pour porter la parole plus loin, le
+          téléphone analogique est transmis dans les Hautes fréquences (Vrai ou
+          Faux) :
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+      <div class="ques">
+        <p id="18">
+          <p class="bold">18. </p> Le CPL en bande étroite peut fournir un débit de 512kbits/s (Vrai ou Faux):
+          <select>
+            <option value="">-</option>
+            <option value="V">Vrai</option>
+            <option value="F">Faux</option>
+          </select>
+        </p>
+      </div>
+    </div>
+    <div class="buttons">
+      <button type="submit" id="submit">
+        Soumettre <i class="fa-brands fa-pushed"></i>
+      </button>
+      <button id="restart"><a href="index.html">
+        Recommencer <i class="fa-solid fa-rotate-right"></i></a>
+      </button>
+    </div>
+
+    <script src="script.js" ></script>
+  </body>
+</html>
