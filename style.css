@@ -93,3 +93,16 @@ a {
 li {
   list-style: none;
 }
+/* Resizing */
+@media screen and (max-width: 800px) {
+  .questions {
+    width: 80%;
+    height: 480px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .questions {
+    width: 90%;
+    height: 500px;
+  }
+}
