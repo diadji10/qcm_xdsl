@@ -64,7 +64,7 @@ const reponses_multiple = [
     "ROUTEUR ADSL2",
     "CABLES",
   ],
-  ["EXTENSION DU DEBIT", "GAIN EN pORTEE", "MISE EN VEILLE DES MODEMS"],
+  ["EXTENSION DU DEBIT", "GAIN EN PORTEE", "MISE EN VEILLE DES MODEMS"],
   ["STRUCTURE", "TYPE", "MODE D'EXPLOITATION"],
 ]; //Fonction includes
 
