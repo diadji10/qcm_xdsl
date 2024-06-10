@@ -14,7 +14,11 @@ const selects = document.querySelectorAll("select");
 const submit = document.getElementById("submit");
 const restart = document.getElementById("restart");
 const header = document.querySelector("header");
-console.log(document.querySelectorAll("select "));
+console.log(
+  document.querySelectorAll("select ").length +
+    document.querySelectorAll("input").length
+);
+
 //Réponses
 const reponses_nombre = [16, 25000];
 const reponses_text = [
@@ -170,17 +174,17 @@ submit.addEventListener("click", () => {
     ul_m3.appendChild(li);
   }
 
-  if ((score * 20) / 35 >= 14) {
+  if ((score * 20) / 46 >= 14) {
     header.innerHTML = `NOTE : <span class="bon">${parseInt(
-      (score * 20) / 35
+      (score * 20) / 46
     ).toFixed(2)}(Bien)</span>`;
-  } else if ((score * 20) / 35 < 10) {
+  } else if ((score * 20) / 46 < 10) {
     header.innerHTML = `NOTE : <span class="mauvais">${parseInt(
-      (score * 20) / 35
+      (score * 20) / 46
     ).toFixed(2)}(Insuffisant)</span>`;
   } else {
     header.innerHTML = `NOTE : <span class="moyen">${parseInt(
-      (score * 20) / 35
+      (score * 20) / 46
     ).toFixed(2)} (ABien)</span>`;
   }
   restart.addEventListener("click", () => {
